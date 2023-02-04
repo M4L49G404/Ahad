@@ -63,16 +63,16 @@ ORANGE = '\033[1;35m'
 KB = '{ KB }'
 
 for xd in range(10000):
-
-    a='Mozilla/5.0 (Linux; U; Android'
+Mozilla/5.0 (Linux; Android 8.0.0; SM-G960F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    a='
 
     b=random.choice(['6','7','8','9','10','11','12'])
 
     c=' en-us; GT-'
 
-    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    d=pro.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 
-    e=random.randrange(1, 999)
+    e=pro.randrange(1, 999)
 
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 
@@ -272,7 +272,7 @@ def xyz():
 
     print(f"")
 
-    print(f"\033[1;91m========================================================")
+    print(f"\033[1;91")
 
     Kashif = input("[âˆš] CHOOSE : ")
 
@@ -322,11 +322,11 @@ def Random():
 
     print(f"")
 
-    print(' 0306 ,0300 ,0315 ,0333')
+    print(' 0306 ,0300 ,0315 ,0333',0301 ,0302 ,0303 ,0304)
 
-    print(f" 0341 ,0342 ,0345 ,0349")
+    print(f" 0341 ,0342 ,0345 ,0349,0305 ,0306 ,0307 ,0311")
 
-    print(f" 0321 ,0316 ,0308 ,0309")
+    print(f" 0321 ,0316 ,0308 ,03090312 ,0313 ,0324")
 
     print(f"")
 
@@ -346,9 +346,9 @@ def Random():
 
     limit = int(input(' EXAMPLE: 1000, 2000, 5000, 10000\n\n PUT CLONING LIMIT: '))
 
-    for nmbr in range(limit):
+    for nmbr in range(un limit):
 
-        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+        nmp = ''.join(pro.choice(string.digits) for _ in range(7))
 
         user.append(nmp)
 
@@ -370,7 +370,7 @@ def Random():
 
         print(f" {WHITE}TO STOP PROCESS Ctrl + Z ")
 
-        print(f'===========================================================')
+        print(f'')
 
         for love in user:
 
